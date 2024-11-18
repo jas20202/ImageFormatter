@@ -1,0 +1,24 @@
+{
+  "name": "imageformatter",
+  "version": "0.2.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: No tests specified\" && exit 1",
+    "start": "electron . --no-sandbox",
+	  "dev": "npx electronmon --trace-warnings --no-sandbox ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jas20202/ImageFormatter.git"
+  },
+  "author": "Jas20202",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jas20202/ImageFormatter/issues"
+  },
+  "homepage": "https://github.com/jas20202/ImageFormatter#readme",
+  "dependencies": {
+    "electron": "^33.2.0"
+  }
+}
